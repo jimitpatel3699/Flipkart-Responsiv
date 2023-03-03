@@ -1,0 +1,194 @@
+nav {
+    background-color: #2874F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    position: relative;
+    top: 9px;
+}
+#flipkart-logo {
+    width: 75px;
+}
+.plus {
+    color: #F9E50F;
+}
+.logo p {
+    color: white;
+    font-size: 0.70rem;
+    font-weight: 600;
+    position: relative;
+    top: -3px;
+}
+.plus-icon {
+    width: 10px;
+    margin-left: 0.20em;
+}
+.searchbar {
+    background-color: white;
+    padding: 5px 20px;
+    margin: 0px 10px;
+    border-radius: 2px;
+    height: 35px;
+}
+.searchbar input {
+    border: none;
+    outline: none;
+    width: 30rem;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10em;
+}
+.links div {
+    margin-right: 2em;
+}
+.links button {
+    border: none;
+    background-color: white;
+    color: #2874F0;
+    font-weight: 500;
+    width: 8em;
+    padding: 5px;
+}
+.links span {
+    color: white;
+    margin-right: 5px;
+    font-weight: 500;
+}
+.category-list {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+.category-list .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    padding: 10px 30px;
+}
+.box img {
+    width: 50px;
+    display: block;
+}
+.box span {
+    font-weight: 500;
+}
+.sub-title {
+    color: rgb(156, 156, 156);
+}
+.products {
+    background-color: #F1F3F6;
+}
+.products-data {
+    background-color: white;
+    padding: 15px 15px 0px 15px;
+}
+.advertisement {
+    display: flex;
+    background-color: white;
+    height: auto;
+    margin-top: 15px;
+    width: 280px;
+    align-items: stretch;
+}
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-content span {
+
+    font-weight: 700;
+    margin-right: 10px;
+}
+.view-btn {
+    border: none;
+    background-color: #2874F0;
+    color: #ffffff;
+    font-weight: 500;
+    width: 6em;
+    padding: 5px;
+    border-radius: 4px;
+}
+ .card top {
+    width: 50%;
+    height: auto;
+} 
+.slider-btn {
+    display: contents;
+    position: relative;
+    width: 10px;
+}
+.slider-btn button {
+    border: none;
+    width: 40px;
+    height: 6rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+.data-show{
+    display: flex;
+    align-items: baseline;
+}
+@media only screen and (max-width: 1800px) and (min-width: 1440px) {
+    .advertisement {
+        
+        /* width: 220px; */
+        width: 13em;
+}
+}
+@media only screen and (max-width: 1439px) and (min-width: 1001px) {
+    .advertisement {
+        
+        width: 9em;
+        height: 20em;
+     
+}
+}
+@media only screen and (max-width: 1000px) {
+    nav {
+        padding: 0px 250px;
+    }
+    .links {
+        margin-left: 2px;
+    }
+    .links div {
+        margin-right: 0.5em;
+    }
+    .links button {
+        width: 4rem;
+    }
+    .searchbar {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .searchbar input {
+        width: 150px;
+    }
+    .category-list {
+        height: 40px;
+    }
+    .category-list .box {
+        padding: 3px;
+
+    }
+    .box img {
+        width: 20px;
+    }
+    .box span {
+        font-size: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider-btn {
+        display: none;
+    }
+}
